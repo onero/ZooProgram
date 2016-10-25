@@ -18,6 +18,10 @@ public class main {
         Zoo zoo = new Zoo();
         zoo.add("male", 4, "Wroaaar");
         zoo.add("Female", 4, "Grrr!");
+
+        zoo.allAnimalsMakeSound();
+        zoo.countLegs();
+        zoo.getNumberOfGender("male");
     }
 
 }

@@ -7,4 +7,9 @@ package zooprogram;
 
 public class Lion extends Animal {
 
+    @Override
+    public void makeSound() {
+
+    }
+
 }

@@ -5,6 +5,26 @@
  */
 package zooprogram;
 
+import java.util.List;
+
 public class Zoo {
+
+    public List<Animal> animals;
+
+    public void add(String gender, int numberOfLegs, String sound) {
+
+    }
+
+    public void allAnimalsMakeSound() {
+
+    }
+
+    public void countLegs() {
+
+    }
+
+    public void getNumberOfGender(String gender) {
+
+    }
 
 }
