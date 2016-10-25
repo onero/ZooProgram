@@ -27,6 +27,11 @@ public class Zoo {
     }
 
     public void countLegs() {
+        int legsTotal = 0;
+        for (Animal animal : animals) {
+            legsTotal += animal.amountOfLegs;
+        }
+        System.out.println("There are " + legsTotal + " legs");
 
     }
 

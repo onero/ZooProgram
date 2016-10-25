@@ -11,6 +11,8 @@ public class Lion extends Animal {
 
     public Lion(String gender, int amountOfLegs, String sound) {
         this.sound = sound;
+        this.amountOfLegs = amountOfLegs;
+        this.gender = gender;
 
     }
 
