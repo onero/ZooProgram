@@ -7,7 +7,7 @@ package zooprogram;
 
 /**
  *
- * @author gta1
+ * @author Adamino
  */
 public class main {
 
@@ -16,12 +16,15 @@ public class main {
      */
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
+        //Creating new Animal objects and assigning them gender, amountOfLegs and sound
         zoo.add(new Lion("male", 4, "Wroaaar"));
         zoo.add(new Bear("Female", 4, "Grrr!"));
 
         zoo.allAnimalsMakeSound();
         zoo.countLegs();
         zoo.getNumberOfGender("Female");
+        //Extra feature that will print out the types of Animals in our animals list!
+        zoo.getAnimalTypes();
     }
 
 }

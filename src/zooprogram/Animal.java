@@ -10,6 +10,9 @@ public abstract class Animal {
     public int amountOfLegs;
     public String gender;
 
+    /**
+     * The abstract method, which the Animal will override to make its own sound
+     */
     public abstract void makeSound();
 
 }
