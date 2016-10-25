@@ -36,7 +36,13 @@ public class Zoo {
     }
 
     public void getNumberOfGender(String gender) {
-
+        int amountOfMale = 0;
+        for (Animal animal : animals) {
+            if (animal.gender.matches("male")) {
+                amountOfMale++;
+            }
+        }
+        System.out.println("There are " + amountOfMale + " male(s)");
     }
 
 }
