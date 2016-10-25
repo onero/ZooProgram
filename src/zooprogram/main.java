@@ -16,8 +16,8 @@ public class main {
      */
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
-        zoo.add("male", 4, "Wroaaar");
-        zoo.add("Female", 4, "Grrr!");
+        zoo.add(new Lion("male", 4, "Wroaaar"));
+        zoo.add(new Bear("Female", 4, "Grrr!"));
 
         zoo.allAnimalsMakeSound();
         zoo.countLegs();

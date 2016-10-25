@@ -5,14 +5,18 @@
  */
 package zooprogram;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
 
-    public List<Animal> animals;
+    private List<Animal> animals;
 
-    public void add(String gender, int numberOfLegs, String sound) {
+    public Zoo() {
+        animals = new ArrayList();
+    }
 
+    public void add(Animal animal) {
     }
 
     public void allAnimalsMakeSound() {
