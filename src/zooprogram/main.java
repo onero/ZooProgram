@@ -21,7 +21,7 @@ public class main {
 
         zoo.allAnimalsMakeSound();
         zoo.countLegs();
-        zoo.getNumberOfGender("male");
+        zoo.getNumberOfGender("Female");
     }
 
 }

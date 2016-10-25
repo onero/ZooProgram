@@ -27,11 +27,22 @@ public class Zoo {
     }
 
     public void countLegs() {
+        int legsTotal = 0;
+        for (Animal animal : animals) {
+            legsTotal += animal.amountOfLegs;
+        }
+        System.out.println("There are " + legsTotal + " legs");
 
     }
 
     public void getNumberOfGender(String gender) {
-
+        int amountOfMale = 0;
+        for (Animal animal : animals) {
+            if (animal.gender.matches("male")) {
+                amountOfMale++;
+            }
+        }
+        System.out.println("There are " + amountOfMale + " " + gender);
     }
 
 }
