@@ -42,7 +42,7 @@ public class Zoo {
                 amountOfMale++;
             }
         }
-        System.out.println("There are " + amountOfMale + " male(s)");
+        System.out.println("There are " + amountOfMale + " " + gender);
     }
 
 }
