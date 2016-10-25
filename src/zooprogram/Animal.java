@@ -10,8 +10,6 @@ public abstract class Animal {
     public int amountOfLegs;
     public String gender;
 
-    public abstract void makeSound() {
-
-    }
+    public abstract void makeSound();
 
 }
