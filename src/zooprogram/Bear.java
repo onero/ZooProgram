@@ -7,12 +7,15 @@ package zooprogram;
 
 public class Bear extends Animal {
 
-    public Bear(String gender, int amountOfLegs, String sound) {
+    String sound;
 
+    public Bear(String gender, int amountOfLegs, String sound) {
+        this.sound = sound;
     }
 
     @Override
     public void makeSound() {
+        System.out.println(sound);
     }
 
 }

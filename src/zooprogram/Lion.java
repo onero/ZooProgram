@@ -7,13 +7,16 @@ package zooprogram;
 
 public class Lion extends Animal {
 
+    String sound;
+
     public Lion(String gender, int amountOfLegs, String sound) {
+        this.sound = sound;
 
     }
 
     @Override
     public void makeSound() {
-        System.out.println();
+        System.out.println(sound);
     }
 
 }

@@ -17,10 +17,13 @@ public class Zoo {
     }
 
     public void add(Animal animal) {
+        animals.add(animal);
     }
 
     public void allAnimalsMakeSound() {
-
+        for (Animal animal : animals) {
+            animal.makeSound();
+        }
     }
 
     public void countLegs() {
